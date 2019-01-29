@@ -17,5 +17,6 @@ fi
 NOMAD_SLOW_TEST=1 make test
 TEST_OUTPUT=$?
 
-kill $PING_LOOP_PID
+kill $PING_LOOP_PID || true
+
 exit $TEST_OUTPUT
