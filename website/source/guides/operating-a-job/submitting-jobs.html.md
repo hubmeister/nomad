@@ -168,5 +168,5 @@ nomad job run -check-index 131 docs.nomad
 ```
 
 For more details on advanced job updating strategies such as canary builds and
-build-green deployments, please see the documentation on [job update
+blue-green deployments, please see the documentation on [job update
 strategies](/guides/operating-a-job/update-strategies/index.html).
