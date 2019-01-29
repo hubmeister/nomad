@@ -3,7 +3,7 @@ Upgrade Tests
 
 This directory has a set of scripts for Nomad upgrade testing. The cluster's configs
 are also included here. For ease of testing, the configs and node names use names like
-`"server1"` and `"client1"` and the data directories are in `"/tmp/server1"`, "/tmp/client1"`, etc
+`"server1"` and `"client1"` and the data directories are in `"/tmp/server1"`, `"/tmp/client1"`, etc
 
 Start a cluster
 ===============
